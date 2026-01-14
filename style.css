@@ -1,14 +1,18 @@
  h1{
-            background-color: white; 
+            background-color: lightblue; 
             border-radius: 10%;
+            border: lightcyan 10px solid
         }
 body{
             font-family: Papyrus;
             background-color: lightskyblue; 
+            
+            
         }
 
 .underline {
             text-decoration: underline;
+            border: lightcyan 10px solid
         }
 
 .list {
@@ -18,13 +22,15 @@ body{
             border-radius: 5%; 
             margin-left: 10px; 
             margin-right: 10px; 
-            
+            border: lightcyan 10px solid
         }
 img {
     border-radius: 25%; 
     display: block;
     margin: auto;  
     width: 400px; 
+    border: lightcyan 10px solid
+    
 }
 
 span {
