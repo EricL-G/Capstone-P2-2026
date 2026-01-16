@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <h1> <span>Senior Bucket List</span></h1>
-    <p>A list made by a graduating senior...</p>
-    <h2> This is what we're going to do: </h2>
+   <div class="header"> <h1> <span>Senior Bucket List</span></h1></div>
+    <p id="SubHeader">A list made by a graduating senior...</p>
+    <h2> <span> This is what we're going to do: </span> </h2>
     <form method="get">
-    <div>
-    <ol class="list">
+    <div class="list">
+    <ol>
         <li> Pass <span id=bold> </span><strong><em>ALL</em></strong> </span>  my finals </li>
         <ul>
             <li>AP Calculus AB</li>
@@ -33,7 +33,7 @@
     </ol>
     </div>
     <h2 class="underline">To-do list</h2>
-    <div class="list">
+    <div class="ToDoList">
      <input type="checkbox" name="License" value="Get License" class="list">Get License<br>
         <input type="checkbox" name="Show" value="Show"class="list">Watch Stranger Things?<br>
         <input type="checkbox" name="Food" value="Food" class="list">Give Us Food!!<br>
@@ -49,10 +49,12 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: green"> Click me</a>
         </div>
         <br>
-        <div>
         <img src="rick-roll-rick-ashley.gif">
         <img src="cat-space.gif">
         <img src="cat paws.gif">
+        <div class="footer">
+        <h3> Congrats!! Rate Our BuckletList!</h3>
+        <input type="range" min="1" max="10">
         </div>
 </form>
 </body>

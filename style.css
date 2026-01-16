@@ -40,3 +40,28 @@ span {
 .bold {
     font-weight: bold;
 }
+.header {
+    text-align: center;
+    background-color: darkblue;
+}
+.ToDoList {
+            background-color: lightblue;
+            padding-top: 3%; 
+            padding-bottom: 3%;
+            border-radius: 5%; 
+            margin-left: 10px; 
+            margin-right: 10px; 
+            color: blueviolet;
+            border: lightcyan 10px solid
+}
+.footer {
+    border-radius: 10%;
+    border: lightcyan 10px dotted;
+    text-align: center;
+    background-color: lightblue;
+}
+#SubHeader {
+    text-align: center;
+    text-decoration: underline;
+
+}
