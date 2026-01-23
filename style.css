@@ -59,9 +59,13 @@ span {
     border: lightcyan 10px dotted;
     text-align: center;
     background-color: lightblue;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: large;
 }
 #SubHeader {
     text-align: center;
     text-decoration: underline;
+    font-size: medium;
 
 }

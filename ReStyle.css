@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 153, 35);
+    
+}
+#outer {
+   background-color: white;
+   width: 150px;
+   height: 150px;
+   position: relative;
+   top: 50px;
+    left: 50px;
+}
+#inner {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    left: 25px;
+    position: absolute;
+    margin: auto;
+}
