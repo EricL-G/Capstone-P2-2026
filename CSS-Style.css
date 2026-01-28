@@ -1,0 +1,48 @@
+body {
+   background-color: lightblue;
+   text-align: center;
+}
+.header{ 
+ text-align: center;
+ background-color: lightskyblue;
+ color: navy;
+ Margin : 10px;
+ Padding: 10px;
+ font-family: Papyrus; 
+ border-style: double;
+ border-radius: 10%;
+ border-width: 5px;
+ text-decoration:dotted underline overline
+}
+
+.footer {
+    border-radius: 10%;
+    border: lightcyan 10px dotted;
+    text-align: center;
+    background-color: lightblue;
+    color:cadetblue ;
+    padding: 10px;
+    margin: auto;
+    font-family: Papyrus;
+}
+.SubSection {
+    background-color: lightblue;
+    margin: 15px;
+    border-radius: 15%;
+    border: lightcyan 5px dashed;
+    color:cadetblue ;
+}
+.Background {
+    background-color: lightblue;
+    margin: 15px;
+    border-radius: 15%;
+    border: lightcyan 5px dashed;
+    color:cadetblue ;
+}
+.profile {
+    border-radius: 50%;
+    display: block; 
+    margin: auto;  
+    width: 300px; 
+    border: lightcyan 10px solid;
+}
